@@ -1,3 +1,4 @@
+# Bonjour depuis Qwen Coder
 # Modifié depuis Qwen Coder
 import os
 import sys
