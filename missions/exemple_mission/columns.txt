@@ -1,0 +1,6 @@
+segment_id
+source_EN_US
+target_DE_DE
+---
+segment_id
+new_target_DE_DE

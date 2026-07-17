@@ -1,0 +1,7 @@
+mission_name: exemple_mission
+input_file: data/argos_ready.tsv
+output_file: data/argos_results.tsv
+model_name: deepseek/deepseek-chat  # ou deepseek/deepseek-r1 pour le modèle de raisonnement
+temperature: 0.2
+max_tokens: 500
+batch_size: 1
