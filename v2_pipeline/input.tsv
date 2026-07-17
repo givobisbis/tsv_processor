@@ -1,4 +1,4 @@
-# Collez vos données TSV ici (la première ligne doit contenir les en-têtes)
-# Exemple :
-# id	nom	description
-# 1	Produit A	Description du produit A
+id	source	cible	analyse_traducteur
+1	The weather is beautiful today.	Le temps est magnifique aujourd'hui.	
+2	I am going to the store.	Je suis allé au magasin.	
+3	The meeting has been postponed due to unforeseen circumstances.	La réunion a été reportée en raison de circonstances inattendues.
