@@ -2,5 +2,6 @@ id
 source
 cible
 ----
+id
 nouvelle_cible
 analyse_traducteur
