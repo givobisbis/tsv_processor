@@ -1,4 +1,6 @@
+# Modifié depuis VS Code - Test du 17 juillet 2026
 # Modifié depuis Qwen Coder
+# MODIFICATION DEPUIS QWEN CODER - TEST DU 17 JUILLET 2026
 import os
 import sys
 from dotenv import load_dotenv
