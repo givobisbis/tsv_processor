@@ -1,0 +1,2 @@
+# Collez votre prompt ici
+# Exemple : Analysez la ligne suivante et extrayez les informations clés.

@@ -1,0 +1,5 @@
+# Listez ici les noms des colonnes attendues, une par ligne
+# Exemple :
+# id
+# nom
+# description
