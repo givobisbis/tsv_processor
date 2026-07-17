@@ -1,0 +1,35 @@
+# Configuration centrale pour le pipeline V2
+# Copiez ce fichier et adaptez-le à vos besoins
+
+# Paramètres généraux
+general:
+  log_level: INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  log_file: logs/pipeline_v2.log
+  enable_checkpointing: true
+  checkpoint_dir: checkpoints/
+
+# Paramètres par défaut pour les modèles LLM
+llm:
+  default_provider: requesty
+  api_base: https://router.requesty.ai/v1
+  temperature: 0.2
+  max_tokens: 4000
+  timeout: 60  # secondes
+  max_retries: 3
+  retry_delay: 2  # secondes entre les retries
+
+# Paramètres de traitement par lots (batching)
+batching:
+  default_batch_size: 10
+  max_concurrent_batches: 1  # Mettre >1 pour du parallélisme (expérimental)
+
+# Validation des données
+validation:
+  check_required_columns: true
+  skip_invalid_rows: false
+  max_empty_rows: 10
+
+# Sauvegarde et récupération
+save:
+  auto_save_interval: 5  # sauvegarder tous les X lots traités
+  backup_enabled: true
