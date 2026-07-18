@@ -1,0 +1,9 @@
+# Configuration de mission pour le pipeline V2
+input_file: "v2_pipeline/input.tsv"
+columns_file: "v2_pipeline/columns.txt"
+prompt_file: "v2_pipeline/prompt.txt"
+output_dir: "v2_pipeline/output"
+batch_size: 5
+model: "deepseek-chat"
+temperature: 0.1
+max_tokens: 1000
