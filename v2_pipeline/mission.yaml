@@ -1,8 +1,10 @@
 # Configuration de mission pour le pipeline V2
+mission_name: "verification_traduction"
 input_file: "v2_pipeline/input.tsv"
 columns_file: "v2_pipeline/columns.txt"
 prompt_file: "v2_pipeline/prompt.txt"
 output_dir: "v2_pipeline/output"
+output_file: "v2_pipeline/output/resultat.tsv"
 batch_size: 5
 model: "deepseek-chat"
 temperature: 0.1
